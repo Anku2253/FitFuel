@@ -1,0 +1,18 @@
+{
+  "version": "v1",
+  "bmr_formula": "mifflin_st_jeor",
+  "activity_multipliers": {
+    "sedentary": 1.2,
+    "light": 1.375,
+    "moderate": 1.55
+  },
+  "goal_adjustment": {
+    "lose": -0.2,
+    "maintain": 0.0,
+    "gain": 0.15
+  },
+  "minimum_calories": {
+    "male": 1200,
+    "female": 1000
+  }
+}

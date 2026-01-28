@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "mapping": {
+    "Underweight": "low",
+    "Normal": "moderate",
+    "Overweight": "moderate",
+    "Obese": "low"
+  }
+}

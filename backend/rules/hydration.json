@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "base_ml_per_kg": 35,
+  "activity_multiplier": {
+    "sedentary": 1.0,
+    "light": 1.1,
+    "moderate": 1.25
+  },
+  "max_liters_per_day": 5
+}

@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "unit": "kg/m2",
+  "ranges": [
+    { "label": "Underweight", "max": 18.5 },
+    { "label": "Normal", "min": 18.5, "max": 25 },
+    { "label": "Overweight", "min": 25, "max": 30 },
+    { "label": "Obese", "min": 30 }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "version": "v1",
+  "formula": "deurenberg",
+  "parameters": {
+    "bmi_multiplier": 1.2,
+    "age_multiplier": 0.23,
+    "sex_multiplier": 10.8,
+    "constant": 5.4
+  },
+  "sex_mapping": {
+    "male": 1,
+    "female": 0
+  },
+  "categories": {
+    "male": [
+      { "label": "Low", "max": 8 },
+      { "label": "Normal", "min": 8, "max": 20 },
+      { "label": "High", "min": 20 }
+    ],
+    "female": [
+      { "label": "Low", "max": 21 },
+      { "label": "Normal", "min": 21, "max": 33 },
+      { "label": "High", "min": 33 }
+    ]
+  }
+}
