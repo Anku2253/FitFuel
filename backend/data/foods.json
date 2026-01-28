@@ -1,0 +1,307 @@
+[
+  {
+    "food_id": "roti_1",
+    "food_name": "Whole Wheat Roti",
+    "category": "roti",
+    "calories_per_100g": 297,
+    "protein_g": 9.6,
+    "carbs_g": 49,
+    "fat_g": 7.4,
+    "portion_unit": "piece",
+    "portion_weight_g": 40
+  },
+  {
+    "food_id": "roti_2",
+    "food_name": "Multigrain Roti",
+    "category": "roti",
+    "calories_per_100g": 280,
+    "protein_g": 10,
+    "carbs_g": 45,
+    "fat_g": 6,
+    "portion_unit": "piece",
+    "portion_weight_g": 45
+  },
+  {
+    "food_id": "roti_3",
+    "food_name": "Missi Roti",
+    "category": "roti",
+    "calories_per_100g": 310,
+    "protein_g": 11,
+    "carbs_g": 46,
+    "fat_g": 8,
+    "portion_unit": "piece",
+    "portion_weight_g": 50
+  },
+
+  {
+    "food_id": "rice_1",
+    "food_name": "Cooked White Rice",
+    "category": "rice",
+    "calories_per_100g": 130,
+    "protein_g": 2.7,
+    "carbs_g": 28,
+    "fat_g": 0.3,
+    "portion_unit": "katori",
+    "portion_weight_g": 150
+  },
+  {
+    "food_id": "rice_2",
+    "food_name": "Brown Rice",
+    "category": "rice",
+    "calories_per_100g": 123,
+    "protein_g": 2.6,
+    "carbs_g": 25,
+    "fat_g": 1,
+    "portion_unit": "katori",
+    "portion_weight_g": 150
+  },
+  {
+    "food_id": "rice_3",
+    "food_name": "Jeera Rice",
+    "category": "rice",
+    "calories_per_100g": 165,
+    "protein_g": 3,
+    "carbs_g": 30,
+    "fat_g": 3,
+    "portion_unit": "katori",
+    "portion_weight_g": 150
+  },
+
+  {
+    "food_id": "dal_1",
+    "food_name": "Toor Dal (Cooked)",
+    "category": "dal",
+    "calories_per_100g": 120,
+    "protein_g": 7,
+    "carbs_g": 17,
+    "fat_g": 1,
+    "portion_unit": "katori",
+    "portion_weight_g": 150
+  },
+  {
+    "food_id": "dal_2",
+    "food_name": "Moong Dal (Cooked)",
+    "category": "dal",
+    "calories_per_100g": 105,
+    "protein_g": 7,
+    "carbs_g": 16,
+    "fat_g": 0.8,
+    "portion_unit": "katori",
+    "portion_weight_g": 150
+  },
+  {
+    "food_id": "dal_3",
+    "food_name": "Chana Dal (Cooked)",
+    "category": "dal",
+    "calories_per_100g": 160,
+    "protein_g": 8,
+    "carbs_g": 27,
+    "fat_g": 2.5,
+    "portion_unit": "katori",
+    "portion_weight_g": 150
+  },
+
+  {
+    "food_id": "sabzi_1",
+    "food_name": "Mixed Vegetable Sabzi",
+    "category": "sabzi",
+    "calories_per_100g": 90,
+    "protein_g": 2,
+    "carbs_g": 10,
+    "fat_g": 4,
+    "portion_unit": "katori",
+    "portion_weight_g": 120
+  },
+  {
+    "food_id": "sabzi_2",
+    "food_name": "Bhindi Sabzi",
+    "category": "sabzi",
+    "calories_per_100g": 110,
+    "protein_g": 2,
+    "carbs_g": 12,
+    "fat_g": 6,
+    "portion_unit": "katori",
+    "portion_weight_g": 120
+  },
+  {
+    "food_id": "sabzi_3",
+    "food_name": "Aloo Gobi",
+    "category": "sabzi",
+    "calories_per_100g": 150,
+    "protein_g": 3,
+    "carbs_g": 20,
+    "fat_g": 7,
+    "portion_unit": "katori",
+    "portion_weight_g": 120
+  },
+  {
+    "food_id": "sabzi_4",
+    "food_name": "Palak Sabzi",
+    "category": "sabzi",
+    "calories_per_100g": 80,
+    "protein_g": 3,
+    "carbs_g": 8,
+    "fat_g": 3,
+    "portion_unit": "katori",
+    "portion_weight_g": 120
+  },
+
+  {
+    "food_id": "fruit_1",
+    "food_name": "Banana",
+    "category": "fruit",
+    "calories_per_100g": 89,
+    "protein_g": 1.1,
+    "carbs_g": 23,
+    "fat_g": 0.3,
+    "portion_unit": "piece",
+    "portion_weight_g": 120
+  },
+  {
+    "food_id": "fruit_2",
+    "food_name": "Apple",
+    "category": "fruit",
+    "calories_per_100g": 52,
+    "protein_g": 0.3,
+    "carbs_g": 14,
+    "fat_g": 0.2,
+    "portion_unit": "piece",
+    "portion_weight_g": 150
+  },
+  {
+    "food_id": "fruit_3",
+    "food_name": "Orange",
+    "category": "fruit",
+    "calories_per_100g": 47,
+    "protein_g": 0.9,
+    "carbs_g": 12,
+    "fat_g": 0.1,
+    "portion_unit": "piece",
+    "portion_weight_g": 130
+  },
+  {
+    "food_id": "fruit_4",
+    "food_name": "Papaya",
+    "category": "fruit",
+    "calories_per_100g": 43,
+    "protein_g": 0.5,
+    "carbs_g": 11,
+    "fat_g": 0.3,
+    "portion_unit": "cup",
+    "portion_weight_g": 140
+  },
+
+  {
+    "food_id": "dairy_1",
+    "food_name": "Curd",
+    "category": "dairy",
+    "calories_per_100g": 98,
+    "protein_g": 11,
+    "carbs_g": 4,
+    "fat_g": 4,
+    "portion_unit": "katori",
+    "portion_weight_g": 100
+  },
+  {
+    "food_id": "dairy_2",
+    "food_name": "Toned Milk",
+    "category": "dairy",
+    "calories_per_100g": 58,
+    "protein_g": 3.1,
+    "carbs_g": 5,
+    "fat_g": 2,
+    "portion_unit": "glass",
+    "portion_weight_g": 200
+  },
+  {
+    "food_id": "dairy_3",
+    "food_name": "Paneer",
+    "category": "dairy",
+    "calories_per_100g": 265,
+    "protein_g": 18,
+    "carbs_g": 6,
+    "fat_g": 20,
+    "portion_unit": "cubes",
+    "portion_weight_g": 100
+  },
+
+  {
+    "food_id": "protein_1",
+    "food_name": "Boiled Egg",
+    "category": "protein",
+    "calories_per_100g": 155,
+    "protein_g": 13,
+    "carbs_g": 1.1,
+    "fat_g": 11,
+    "portion_unit": "piece",
+    "portion_weight_g": 50
+  },
+  {
+    "food_id": "protein_2",
+    "food_name": "Chicken Breast",
+    "category": "protein",
+    "calories_per_100g": 165,
+    "protein_g": 31,
+    "carbs_g": 0,
+    "fat_g": 3.6,
+    "portion_unit": "grams",
+    "portion_weight_g": 150
+  },
+  {
+    "food_id": "protein_3",
+    "food_name": "Soy Chunks",
+    "category": "protein",
+    "calories_per_100g": 345,
+    "protein_g": 52,
+    "carbs_g": 33,
+    "fat_g": 0.5,
+    "portion_unit": "grams",
+    "portion_weight_g": 50
+  },
+
+  {
+    "food_id": "snack_1",
+    "food_name": "Roasted Peanuts",
+    "category": "snack",
+    "calories_per_100g": 567,
+    "protein_g": 26,
+    "carbs_g": 16,
+    "fat_g": 49,
+    "portion_unit": "handful",
+    "portion_weight_g": 30
+  },
+  {
+    "food_id": "snack_2",
+    "food_name": "Poha",
+    "category": "snack",
+    "calories_per_100g": 180,
+    "protein_g": 4,
+    "carbs_g": 30,
+    "fat_g": 5,
+    "portion_unit": "plate",
+    "portion_weight_g": 150
+  },
+
+  {
+    "food_id": "fat_1",
+    "food_name": "Cooking Oil",
+    "category": "fat",
+    "calories_per_100g": 884,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100,
+    "portion_unit": "teaspoon",
+    "portion_weight_g": 5
+  },
+  {
+    "food_id": "fat_2",
+    "food_name": "Ghee",
+    "category": "fat",
+    "calories_per_100g": 900,
+    "protein_g": 0,
+    "carbs_g": 0,
+    "fat_g": 100,
+    "portion_unit": "teaspoon",
+    "portion_weight_g": 5
+  }
+]
