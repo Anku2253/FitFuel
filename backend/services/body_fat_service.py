@@ -17,7 +17,7 @@ def classify_body_fat(body_fat: float, gender: str):
 
 body_fat_rules = load_rule("body_fat.json")
 
-def calculate_body_fat(bmi: float, age: int, gender: str):
+def calculate_body_fat(bmi: float, age: int, gender: str) -> float:
     params = body_fat_rules["parameters"]
     sex_map = body_fat_rules["sex_mapping"]
 
@@ -30,6 +30,4 @@ def calculate_body_fat(bmi: float, age: int, gender: str):
         params["constant"]
     )
 
-    category = classify_body_fat(body_fat, gender)
-
-    return round(body_fat, 2), category
+    return round(body_fat, 2)
