@@ -1,13 +1,20 @@
 from fastapi import APIRouter
-from schemas.nutrition import NutritionPlan
-from services.nutrition_service import generate_nutrition_plan
+from schemas.nutrition import (
+    MealPlanRequest,
+    MealPlanResponse,
+    DailyTipResponse
+)
+from services.nutrition_service import (
+    generate_meal_plan,
+    get_daily_tip
+)
 
-router = APIRouter()
+router = APIRouter(prefix="/nutrition", tags=["Nutrition"])
 
-@router.get("/ping", response_model=NutritionPlan)
-def get_nutrition_plan(bmi: float, goal: str):
-    calories, meals = generate_nutrition_plan(bmi, goal)
-    return {
-        "calorie_target": calories,
-        "meals": meals
-    }
+@router.post("/meal-plan", response_model=MealPlanResponse)
+def meal_plan(request: MealPlanRequest):
+    return generate_meal_plan(request)
+
+@router.get("/daily-tips", response_model=DailyTipResponse)
+def daily_tips():
+    return get_daily_tip()

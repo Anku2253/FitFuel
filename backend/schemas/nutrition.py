@@ -1,11 +1,23 @@
 from pydantic import BaseModel
 from typing import List
 
-class MealItem(BaseModel):
-    food: str
-    portion_g: int
-    reason: str
+class MealPlanRequest(BaseModel):
+    age: int
+    gender: str
+    height_cm: float
+    weight_kg: float
+    activity_level: str
+    goal: str   # lose | maintain | gain
 
-class NutritionPlan(BaseModel):
-    calorie_target: int
-    meals: List[MealItem]
+class MealItem(BaseModel):
+    name: str
+    calories: int
+
+class MealPlanResponse(BaseModel):
+    breakfast: List[MealItem]
+    lunch: List[MealItem]
+    dinner: List[MealItem]
+    total_calories: int
+
+class DailyTipResponse(BaseModel):
+    tip: str
